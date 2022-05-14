@@ -1,34 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
-
-* {
-box-sizing: border-box;
+.header {
+    outline-color: gold;
+    outline-style: outset;
+    outline-width: thick;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    display: block;
+    font-family: cursive;
+    font-size: 30px; 
+    color: gold;
+    text-shadow: 3px 3px 3px black;  
+    box-shadow: 3px 3px black;
 }
-
 
 body{
-    font-family: 'Macondo';
-    height: 100vh;
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: cursive;
+    background-image: url(space.jpeg);
 }
 
-form{
 
-    background: white;
-    padding: 60px;
-    width: 550px;
-    max-width: calc(100% - 60px);
+form{
+    background: rgb(167, 201, 215);
+    border: 10px;
+    border: solid;
+    border-color: black;
+    padding: 30px;
+    width: 60%;
+    margin:auto
+    
 }
 
 .form-element {
 display: flex;
 flex-direction:  column;
 margin-bottom: 30px;
+border: 10px;
+border-color: black;
 }
 
 .form-element span {
 margin-bottom: 10px ;
 
 }
+
+.button {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+.button1:hover {
+    background-color: gold; 
+    color: goldenrod;
+    border: 3px inset goldenrod;
+    text-shadow: 1px 1px black 
+  }
+
+  .button1 {
+    background-color: goldenrod;
+    color:gold;
+    border: 3px outset gold;
+    text-shadow:1px 1px black;
+  }
+
